@@ -1,0 +1,104 @@
+*{
+  
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
+p{
+    background-color: #efb1a4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #333; /* Texto padrão */
+  }
+  
+  h1 {
+    color: black; /* Palavra-chave */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Exemplos de cores */
+  .keyword-color {
+    color: blue; /* Palavra-chave */
+  }
+  
+  .hex-color {
+    color: #ff5733; /* Hexadecimal */
+  }
+  
+  .rgb-color {
+    color: rgb(102, 205, 170); /* RGB */
+  }
+  
+  .rgba-color {
+    color: rgba(255, 0, 0, 0.5); /* RGBA */
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .hsl-color {
+    color: hsl(200, 100%, 50%); /* HSL */
+  }
+  
+  .hsla-color {
+    color: hsla(300, 100%, 50%, 0.7); /* HSLA */
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  /* Gradientes */
+  .gradient-linear {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    margin-top: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .gradient-radial {
+    width: 100%;
+    height: 100px;
+    background: radial-gradient(circle, red, blue, purple);
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Opacidade */
+  .opacity-box {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  div.transparente {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, rgba(255, 126, 95, 1), rgba(255, 126, 95, 0));
+    margin-top: 20px;
+  }
+  
+
+  div.maiscores {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+  }

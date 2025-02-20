@@ -1,0 +1,12 @@
+body{
+    font-size: 24px;
+}
+
+a{
+    background-color: rgb(126, 48, 205);
+   color: white;
+}
+
+a:active{
+    color: orangered;
+}

@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.uniform {
+    /* Bordas arredondadas uniformes */
+    border-radius: 20px;
+}
+.individual {
+    /* Bordas arredondadas diferentes para cada canto */
+    border-radius: 20px 10px 30px 5px;
+}
+.circle {
+    /* Elemento totalmente circular */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.capsule {
+    /* Elemento em forma de cápsula */
+    border-radius: 50px;
+}
+.ellipse {
+    /* Elemento em forma de elipse */
+    border-radius: 50% 20%;
+}
+.hover-effect {
+    /* Animação de bordas arredondadas ao passar o mouse */
+    transition: border-radius 0.3s;
+}
+.hover-effect:hover {
+    border-radius: 50%;
+}
+.gotta {
+    /* Forma de gota */
+    width: 100px;
+    height: 150px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.shield {
+    /* Forma de escudo */
+    width: 150px;
+    height: 200px;
+    border-radius: 50% 50% 30% 30% / 60% 60% 40% 40%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Estilo 1: Bordas com estilo sólido */
+.solid {
+    border: 5px solid #007BFF;
+    background-color: #007BFF;
+}
+
+/* Estilo 2: Bordas com gradiente */
+.gradient {
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, red, yellow) 1;
+    background-color: white;
+    color: black;
+}
+
+/* Estilo 3: Bordas arredondadas */
+.rounded {
+    border: 5px solid #28A745;
+    border-radius: 20px;
+    background-color: #28A745;
+}
+
+/* Estilo 4: Bordas com imagem */
+.image-border {
+    border: 20px solid;
+    border-image: url('https://via.placeholder.com/20') 30 round;
+    background-color: white;
+    color: black;
+}
+
+/* Estilo 5: Bordas com sombra */
+.shadow {
+    border: 5px solid #343A40;
+    background-color: #343A40;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo 6: Bordas com pseudo-elementos */
+.pseudo {
+    border: 5px solid transparent;
+    background-color: #FFC107;
+}
+.pseudo::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    border: 5px dashed red;
+    pointer-events: none;
+}
+
+/* Estilo 7: Bordas animadas */
+@keyframes border-animation {
+    0% { border-color: red; }
+    25% { border-color: orange; }
+    50% { border-color: yellow; }
+    75% { border-color: green; }
+    100% { border-color: blue; }
+}
+
+.animated {
+    border: 5px solid red;
+    animation: border-animation 3s infinite;
+    background-color: white;
+    color: black;
+}
+
+/* Estilo 8: Bordas personalizadas com clip-path */
+.clip-path {
+    background-color: #17A2B8;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}

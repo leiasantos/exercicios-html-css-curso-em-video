@@ -1,0 +1,35 @@
+
+
+div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    width:200px;
+    height:200px;
+}
+
+div#d1{
+
+}
+
+div#d2{
+
+}
+
+div#d3{
+
+}
+
+div:hover{
+    background-color: orangered;
+}
+
+.hover > p{
+    display: none;
+}
+
+div.hover:hover > p{
+   display: block;
+   color: aliceblue;
+}

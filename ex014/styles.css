@@ -1,0 +1,75 @@
+ /* 1. FONT FAMILY - Definindo a família da fonte */
+ .font-family {
+    font-family: 'Arial', sans-serif; /* Fonte principal e fallback */
+    font-size: 1.5rem; /* Tamanho para destaque */
+    color: #333;
+  }
+
+  /* 2. FONT SIZE - Definindo o tamanho da fonte */
+  .font-size {
+    font-size: 2rem; /* Tamanho grande */
+    color: #0056b3; /* Azul para destaque */
+  }
+
+  /* 3. FONT WEIGHT - Ajustando o peso da fonte */
+  .font-weight {
+    font-weight: 700; /* Negrito */
+    font-size: 1.5rem;
+    color: #444;
+  }
+
+  /* 4. FONT STYLE - Aplicando itálico */
+  .font-style {
+    font-style: italic; /* Texto em itálico */
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  /* 5. LINE HEIGHT - Definindo altura da linha */
+  .line-height {
+    font-size: 1.2rem;
+    line-height: 2; /* Espaço entre as linhas */
+    color: #333;
+  }
+
+  /* 6. LETTER SPACING - Espaço entre as letras */
+  .letter-spacing {
+    font-size: 1.5rem;
+    letter-spacing: 4px; /* Espaçamento entre letras */
+    color: #007bff;
+  }
+
+  /* 7. WORD SPACING - Espaço entre palavras */
+  .word-spacing {
+    font-size: 1.5rem;
+    word-spacing: 10px; /* Espaçamento entre palavras */
+    color: #28a745;
+  }
+
+  /* 8. TEXT ALIGN - Alinhamento do texto */
+  .text-align {
+    text-align: center; /* Alinhamento centralizado */
+    font-size: 1.5rem;
+    color: #6c757d;
+  }
+
+  /* 9. TEXT TRANSFORM - Transformação do texto */
+  .text-transform {
+    text-transform: uppercase; /* Caixa alta */
+    font-size: 1.5rem;
+    color: #ffc107;
+  }
+
+  /* 10. TEXT DECORATION - Decoração do texto */
+  .text-decoration {
+    text-decoration: underline; /* Sublinhado */
+    font-size: 1.5rem;
+    color: #dc3545;
+  }
+
+  /* 11. TEXT SHADOW - Sombra no texto */
+  .text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra escura */
+    font-size: 1.5rem;
+    color: #17a2b8;
+  }

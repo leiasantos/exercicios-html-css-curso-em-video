@@ -1,0 +1,89 @@
+
+body{
+    font-size: 20px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: gold;
+}
+
+a::after{
+    content: ' [link] ';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+h1::first-letter{
+    color:red;
+}
+
+p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: 60px;
+}
+
+
+
+/* Estilo geral para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Pseudo-classe :hover - Muda o fundo ao passar o mouse */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pseudo-classe :nth-child - Estiliza linhas ímpares */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Pseudo-classe :first-child - Aplica estilo na primeira célula */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Pseudo-elemento ::before - Adiciona conteúdo antes do texto de cada <td> */
+td::before {
+    content: "➤ ";
+    color: #888;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+/* Pseudo-elemento ::after - Adiciona uma linha na tabela */
+tr::after {
+    content: "";
+    display: block;
+    border-bottom: 1px dashed #ccc;
+    margin: 5px 0;
+}

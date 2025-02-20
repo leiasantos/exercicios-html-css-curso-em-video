@@ -1,0 +1,36 @@
+
+body{
+    background: linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+   
+}
+
+h1{
+  color:#4E148C;
+}
+
+h2{
+  color:#CA054D;
+}
+
+h1#principal{
+    background-color: #2C0735;
+    color: white;
+    text-align: center;
+}
+
+.basico{
+    color: #791E94;
+}
+
+.intermediario{
+    color: #022B3A;
+}
+
+.avancado{
+    color:#7BF1A8 ;
+}
+
+.css{
+    background-color: pink;
+    text-align: center;
+}
