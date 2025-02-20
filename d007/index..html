@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 07</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a iamgem completa? Experimente a ampliar o tamanho da sua janela para aproveitar a melhor experiência 😊 </p>
+
+  <picture>
+     <!-- Imagem para telas grandes -->
+     <source media="(min-width: 1200px)" srcset="./imagens/paisagem-g.png" type="image/jpeg">
+    
+     <!-- Imagem para telas médias -->
+     <source media="(min-width: 768px)" srcset="./imagens/paisagem-m.png" type="image/jpeg">
+     
+     <img src="./imagens/paisagem-p.png" alt="">
+  </picture>
+  
+
+   
+</body>
+</html>
